@@ -7,14 +7,14 @@ import java.util.regex.*;
 public class Solution {
 
     public static void main(String[] args) {
-        Scanner line = new Scanner(System.in);
-        int counter = 1;
+        Scanner sc = new Scanner(System.in);
+        int c = 1;
         
-        while (line.hasNextLine()) {
+        while (sc.hasNextLine()) {
             String l = line.nextLine();
 
-            System.out.println(counter + " " + l);
-            counter++;
+            System.out.println(c + " " + l);
+            c++;
         }
     }
 }
